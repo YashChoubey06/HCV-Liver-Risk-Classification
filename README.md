@@ -35,6 +35,7 @@ The project pipeline includes:
 
 ### PCA
 2 components explained variance: 0.3890361591275746
+
 3 components explained variance: 0.5132220171716534
 
 ## Limitations
