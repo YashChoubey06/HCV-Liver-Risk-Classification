@@ -27,13 +27,13 @@ The project pipeline includes:
 
 ## Unsupervised Learning Results
 
-# KMeans
+### KMeans
 | Disease/Cluster | 0 | 1 |
 | :--- | :--- | :--- |
 | 0 | 0.915371 | 0.084629 |
 | 1 | 0.277778 | 0.722222 |
 
-# PCA
+### PCA
 2 components explained variance: 0.3890361591275746
 3 components explained variance: 0.5132220171716534
 
