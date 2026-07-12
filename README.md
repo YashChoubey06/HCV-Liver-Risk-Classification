@@ -16,7 +16,7 @@ The project pipeline includes:
 * **PCA**: Applied for dimensionality reduction and 3D visualization of the data.
 * **K-Means**: Used for unsupervised clustering to identify natural patient groupings.
 
-## Results
+## Supervised Learning Results
 
 | Model | Disease Recall | Disease F1 | ROC-AUC |
 | :--- | :--- | :--- | :--- |
@@ -24,6 +24,18 @@ The project pipeline includes:
 | Support Vector Machine | 0.62 | 0.67 | 0.9699 |
 | Random Forest | 0.50 | 0.67 | 0.9977 |
 | Gradient Boosting | 0.88 | 0.93 | 0.9977 |
+
+## Unsupervised Learning Results
+
+# KMeans
+| Disease/Cluster | 0 | 1 |
+| :--- | :--- | :--- |
+| 0 | 0.915371 | 0.084629 |
+| 1 | 0.277778 | 0.722222 |
+
+# PCA
+2 components explained variance: 0.3890361591275746
+3 components explained variance: 0.5132220171716534
 
 ## Limitations
 * The sample is small. 
