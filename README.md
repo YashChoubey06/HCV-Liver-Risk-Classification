@@ -10,9 +10,10 @@ This project uses the UCI HCV dataset, which contains 615 observations and 12 cl
 The project pipeline includes:
 * **Missing-value imputation**: Handled using Category-specific mean imputation to prevent data leakage.
 * **Standardization**: Feature scaling to ensure all laboratory markers contribute equally to model performance.
-* **Logistic Regression**: Used as an interpretable baseline model.
+* **K-Nearest Neighbors (KNN)**: Implemented as a baseline distance-based classifier to evaluate local data structures..
 * **Random Forest**: Used to capture non-linear relationships in laboratory data.
 * **SVM**: Employed with an RBF kernel for classification.
+* **Gradient Boosting**: Leveraged as an advanced boosting technique to sequentially minimize errors and maximize overall predictive performance.
 * **PCA**: Applied for dimensionality reduction and 3D visualization of the data.
 * **K-Means**: Used for unsupervised clustering to identify natural patient groupings.
 
